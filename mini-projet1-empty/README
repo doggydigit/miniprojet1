@@ -1,0 +1,19 @@
+Cette correction possible du mini-projet est fournie sans les tests de 
+développements intermédiaires.
+
+
+Compilation: avec scons dans ce même dossier, l'exécutable est dans ./bin
+
+$ scons -Qi
+
+Nettoyage:
+
+$ scons -c
+
+Exécution:
+
+$ gnuplot make_graph.gp
+
+Attention: le script make_graph.gp va chercher l'exécutable dans ./bin
+
+Le fichier ./man contient plus de détails sur les paramètres du programme.

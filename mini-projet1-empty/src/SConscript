@@ -1,0 +1,25 @@
+import os
+
+# Compiler config
+env = Environment()
+
+if env['PLATFORM'] == 'darwin':
+    env['CXX'] = 'clang++'
+    env['CCFLAGS'] = '-stdlib=libc++ '
+    env['LINKFLAGS'] = '-stdlib=libc++ '
+elif env['PLATFORM'] == 'posix':
+    env['CXX'] = 'g++-4.7'
+
+env.Append(CCFLAGS = '-std=c++0x -Wall -Wextra')
+env.Decider('content')
+
+# Source & object files
+src_dir = ['.'] # use the copy made by VariantDir
+src_files = Glob('*.cpp') + Glob('*.cc')
+objects = env.Object(source = src_files)
+
+# App
+name = "stimulus"
+target = env.Program("../bin/" + name, source = objects, CPPPATH = src_dir)
+env.Alias(name, target)
+
