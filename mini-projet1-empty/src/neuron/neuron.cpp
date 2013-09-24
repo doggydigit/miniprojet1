@@ -8,10 +8,11 @@ Neuron::Neuron()
 	}
 }
 
-void Neuron::process()
+void Neuron::process(Signal s)
 {
-	if(!activ)
-	{
-		activ = 1;
+	if(std::inner_product(weight, weight + 20, getSignal(), 0) >= 0){
+		activ == 1;
+	}else{
+		activ == 0;
 	}
 }
