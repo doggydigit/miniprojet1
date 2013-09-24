@@ -5,7 +5,8 @@
 #include <iostream>
 #include "rand_range.hpp"
 
-namespace impl {
+namespace impl 
+{
 	short bit_t;
 	std::array<bit_t,20> signal_t;
 	std::array<double,20> weights_t;
