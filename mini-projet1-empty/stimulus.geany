@@ -18,17 +18,16 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=9
-FILE_NAME_0=70;C++;0;16;1;1;0;/home/tsai/myfiles/git/miniprojet1/mini-projet1-empty/main.hpp;0;4
-FILE_NAME_1=201;C++;0;16;1;1;0;/home/tsai/myfiles/git/miniprojet1/mini-projet1-empty/src/neuron.cpp;0;4
-FILE_NAME_2=112;C++;0;16;1;1;0;/home/tsai/myfiles/git/miniprojet1/mini-projet1-empty/src/neuron.hpp;0;4
-FILE_NAME_3=295;C++;0;16;1;1;0;/home/tsai/myfiles/git/miniprojet1/mini-projet1-empty/src/signal.cpp;0;4
-FILE_NAME_4=167;C++;0;16;1;1;0;/home/tsai/myfiles/git/miniprojet1/mini-projet1-empty/src/signal.hpp;0;4
-FILE_NAME_5=7028;C++;0;16;1;1;0;/home/tsai/myfiles/cpp/projet/partie4/src/Animal/Mouse.cpp;0;4
-FILE_NAME_6=0;C++;0;16;1;1;0;/home/tsai/myfiles/cpp/projet/partie4/src/Environment/Environment.cpp;0;4
-FILE_NAME_7=18498;C++;0;16;1;1;0;/home/tsai/myfiles/cpp/projet/partie4/src/Animal/Animal.cpp;0;4
-FILE_NAME_8=334;C++;0;16;1;1;0;/home/tsai/myfiles/git/miniprojet1/mini-projet1-empty/src/rand_range.hpp;0;4
-FILE_NAME_9=195;C++;0;16;1;1;0;/home/tsai/myfiles/git/miniprojet1/mini-projet1-empty/src/types.hpp;0;4
+current_page=8
+FILE_NAME_0=251;C++;0;16;1;1;0;/home/tsai/myfiles/git/miniprojet1/mini-projet1-empty/src/main.cpp;0;4
+FILE_NAME_1=308;C++;0;16;1;1;0;/home/tsai/myfiles/git/miniprojet1/mini-projet1-empty/src/neuron.cpp;0;4
+FILE_NAME_2=56;C++;0;16;1;1;0;/home/tsai/myfiles/git/miniprojet1/mini-projet1-empty/src/neuron.hpp;0;4
+FILE_NAME_3=259;C++;0;16;1;1;0;/home/tsai/myfiles/git/miniprojet1/mini-projet1-empty/src/signal.cpp;0;4
+FILE_NAME_4=36;C++;0;16;1;1;0;/home/tsai/myfiles/git/miniprojet1/mini-projet1-empty/src/signal.hpp;0;4
+FILE_NAME_5=334;C++;0;16;1;1;0;/home/tsai/myfiles/git/miniprojet1/mini-projet1-empty/src/rand_range.hpp;0;4
+FILE_NAME_6=237;C++;0;16;1;1;0;/home/tsai/myfiles/git/miniprojet1/mini-projet1-empty/src/types.hpp;0;4
+FILE_NAME_7=2046;C++;0;16;1;1;0;/home/tsai/myfiles/cpp/projet/partie4/src/ConfigManager/ConfigManager.cpp;0;4
+FILE_NAME_8=0;C++;0;16;1;1;0;/home/tsai/myfiles/cpp/projet/partie4/src/Animal/Animal.cpp;0;4
 
 [VTE]
 last_dir=/home/tsai

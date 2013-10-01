@@ -11,6 +11,7 @@ class Signal
 public:
 
 	Signal(bool presence);
+	~Signal();
 	bool presence();
 	
 	// une méthode getSignal() qui retournera un référence constante sur le signal courant (*this).
@@ -26,9 +27,6 @@ private:
 
 	//une séquence de vingt bits de type impl::signal_t modélisant le signal;
 	impl::signal_t input_sequence;
-
-
-
 
 };
 

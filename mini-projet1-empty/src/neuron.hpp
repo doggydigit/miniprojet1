@@ -1,7 +1,7 @@
 #ifndef NEURON_H
 #define NEURON_H
 
-#include "types.hpp"
+#include "signal.hpp"
 
 using namespace std;
 
