@@ -1,11 +1,11 @@
-##ifndef SIGNAL_H
+#ifndef SIGNAL_H
 #define SIGNAL_H
 
 #include "types.hpp"
 
 using namespace std;
 
-class Signal: 
+class Signal
 {
    
 public:
