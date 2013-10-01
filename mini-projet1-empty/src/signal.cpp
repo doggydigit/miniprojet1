@@ -21,7 +21,12 @@ Signal::Signal(bool presence): objectPresent(presence)
 	}
 }
 
-Signal::getSignal()
+bool Signal::presence()
 {
-	return *this;
+	return objectPresent;
+}
+
+impl::signal_t Signal::getSignal()
+{
+	return input_sequence;
 }

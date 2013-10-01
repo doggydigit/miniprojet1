@@ -1,8 +1,7 @@
 #ifndef NEURON_H
 #define NEURON_H
 
-#include <isotream>
-#include "rand_range.hpp"
+#include "types.hpp"
 
 using namespace std;
 
@@ -11,7 +10,9 @@ class Neuron:
 public:
 	Neuron();
 	~Neuron();
-	void process();
+	void process(impl::signal_t s);
+	bool activated();
+	
 protected:
 
 private:
