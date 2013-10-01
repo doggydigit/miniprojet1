@@ -10,10 +10,10 @@ Neuron::Neuron()
 
 void Neuron::process(impl::signal_t s)
 {
-	if(std::inner_product(weight, weight + 20, s, 0) >= 0){
-		activ == 1;
+	if(std::inner_product(&weight[0], &weight[19], &s, 0) >= 0){
+		activ = 1;
 	}else{
-		activ == 0;
+		activ = 0;
 	}
 }
 

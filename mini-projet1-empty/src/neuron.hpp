@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class Neuron: 
+class Neuron
 {
 public:
 	Neuron();
